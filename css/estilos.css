@@ -17,15 +17,27 @@ aside {
     margin: 5px 0px;
 }
 
+.banner-sticky {
+    display: flex;
+    flex-direction: column;
+    height: 37%;
+    position: sticky;
+    top: 0;
+}
+
+.gif {
+    margin: 0px 0px 7px 2px;
+}
+
+/*-------------SECCION DE NOTICIAS------------*/
 .articulos {
-    width: 99%;
+    width: 100%;
     border: 1px solid rgb(59, 14, 14);
     background: rgb(117, 97, 97);
     color: white;
     text-align: justify;
     font-size: 25px;
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -92,19 +104,6 @@ aside {
     padding: 20px;
     border: 1px solid rgb(59, 14, 14);
     background: rgb(117, 97, 97);
-}
-
-.publici {
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
-    padding: 1px;
-    text-align: center;
-    border: 1px solid rgb(59, 14, 14);
-    background: rgb(117, 97, 97);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 
 .footer {
