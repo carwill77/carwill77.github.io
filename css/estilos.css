@@ -1,4 +1,4 @@
-body {
+.articulos {
     width: 99%;
     border: 1px solid rgb(59, 14, 14);
     background: rgb(117, 97, 97);
@@ -10,7 +10,7 @@ body {
     flex-direction: row;
 }
 
-
+*/
 /*Contenedor Articulos*/
 
 .sub-articulos {
@@ -185,4 +185,11 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
+
+.footer {
+    border: 1px solid rgb(59, 14, 14);
+    background: rgb(117, 97, 97);
+    padding: 1px;
+    text-align: center;
 }
