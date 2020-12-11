@@ -1,3 +1,22 @@
+/*--------HEADER---------------------------*/
+header {
+    height: 300px;
+    border: 1px solid black;
+}
+
+/*---------BARRA DE NAVEGACION--------------*/
+nav {
+    height: 50px;
+    border: 1px solid red;
+}
+
+/*---------BANNER PUBLICITARIO--------------*/
+aside {
+    height: 150px;
+    border: 1px solid black;
+    margin: 5px 0px;
+}
+
 .articulos {
     width: 99%;
     border: 1px solid rgb(59, 14, 14);
@@ -10,18 +29,14 @@
     flex-direction: row;
 }
 
-*/
 /*Contenedor Articulos*/
-
 .sub-articulos {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
-
 /*Contenedor de Articulo 1*/
-
 .sub-articulos .art1 {
     display: flex;
     justify-content: start;
@@ -50,9 +65,7 @@
     background: rgb(117, 97, 97);
 }
 
-
 /*Contenedor de Articulo 2*/
-
 .sub-articulos .art2 {
     display: flex;
     justify-content: start;
@@ -99,4 +112,5 @@
     background: rgb(117, 97, 97);
     padding: 1px;
     text-align: center;
+    height: 650px;
 }
