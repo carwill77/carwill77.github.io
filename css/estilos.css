@@ -1,9 +1,8 @@
 /*--------HEADER---------------------------*/
 
-header {
-    
+header {}
 
-}
+
 /*
 .logo-header{
     height: 170px;
@@ -13,20 +12,23 @@ header {
     display: flex;
     justify-content: center;
 }*/
+
 header .header-resumen img {
     max-width: 100%;
     height: 80%;
     padding-top: 20px;
 }
+
 header img {
     max-width: 100%;
     max-height: 100%;
 }
+
 header .header-resumen {
-    
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 header .Main__Footer-xz49ti-2 {
     display: none;
 }
@@ -39,11 +41,12 @@ header .Main__Footer-xz49ti-2 {
     display: none;
 }
 
-.container-dolar{
-
-display: flex;
+.container-dolar {
+    display: flex;
     justify-content: center;
 }
+
+
 /*---------BARRA DE NAVEGACION--------------*/
 
 nav {
@@ -230,31 +233,30 @@ aside {
     text-align: center;
     font-size: 20px;
     font-family: cursive;
-    display:flex;
+    display: flex;
     flex-direction: row;
-    
 }
 
-.editorial{
-    width: 33%;
+.editorial {
+    width: 33.33%;
     height: 400px;
-    border: 2px solid ; rgb(10, 165, 131)
+    border: 2px solid rgb(10, 165, 131);
     flex-direction: column;
-    justify-content:center ;
+    justify-content: center;
 }
 
-.contacto{
-    width: 33%;
+.contacto {
+    width: 33.33%;
     height: 400px;
-    border: 2px solid ; rgb(10, 165, 131)
+    border: 2px solid rgb(10, 165, 131);
     flex-direction: column;
-    justify-content:center ;
+    justify-content: center;
 }
 
-.escritores{
-    width: 33%;
+.escritores {
+    width: 33.34%;
     height: 400px;
-    border: 2px solid ; rgb(10, 165, 131)
+    border: 2px solid rgb(10, 165, 131);
     flex-direction: column;
-    justify-content:center ;
+    justify-content: center;
 }
