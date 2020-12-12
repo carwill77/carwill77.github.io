@@ -1,11 +1,49 @@
 /*--------HEADER---------------------------*/
 
 header {
-    height: 300px;
+    
+
+}
+/*
+.logo-header{
+    height: 170px;
     border: 1px solid black;
+   
+    background: #dbb042;
+    display: flex;
+    justify-content: center;
+}*/
+header .header-resumen img {
+    max-width: 100%;
+    height: 80%;
+    padding-top: 20px;
+}
+header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+header .header-resumen {
+    
+   display: flex;
+   justify-content: space-between;
+}
+header .Main__Footer-xz49ti-2 {
+    display: none;
 }
 
+.column2 {
+    padding-top: 30px;
+}
 
+.Main__Title-xz49ti-1.fFJRSF {
+    display: none;
+}
+
+.container-dolar{
+
+display: flex;
+    justify-content: center;
+}
 /*---------BARRA DE NAVEGACION--------------*/
 
 nav {
