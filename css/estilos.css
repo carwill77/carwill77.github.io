@@ -1,6 +1,6 @@
 /*--------HEADER---------------------------*/
 
-header {}
+header {
 
 
 /*
@@ -11,7 +11,7 @@ header {}
     background: #dbb042;
     display: flex;
     justify-content: center;
-}*/
+}*/}
 
 header .header-resumen img {
     max-width: 100%;
@@ -257,6 +257,7 @@ aside {
     width: 33.34%;
     height: 400px;
     border: 2px solid rgb(10, 165, 131);
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
