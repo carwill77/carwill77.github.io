@@ -1,6 +1,6 @@
 /*--------HEADER---------------------------*/
 
-header {}
+header {
 
 
 /*
@@ -11,7 +11,7 @@ header {}
     background: #dbb042;
     display: flex;
     justify-content: center;
-}*/
+}*/}
 
 header .header-resumen img {
     max-width: 100%;
