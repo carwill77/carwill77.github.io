@@ -56,7 +56,7 @@ nav {
 
 .menu_link {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .link_item {
@@ -67,9 +67,9 @@ nav {
 .link {
     text-decoration: none;
     color: #000;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.1rem;
-    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    padding: 1px;
     position: relative;
     align-items: flex-start;
 }
@@ -115,7 +115,7 @@ aside {
 .banner-sticky {
     display: flex;
     flex-direction: column;
-    height: 27.7%;
+    height: 19.0%;
     position: sticky;
     top: 0;
 }
@@ -130,9 +130,13 @@ aside {
 .articulos {
     width: 100%;
     color: blue;
-    font-family: 'Langar', cursiva;
+    /*font-family: 'Anton', sans-serif;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Barlow Condensed', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Roboto Slab', serif;*/
     text-align: justify;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(3, 29, 80);
     display: flex;
     flex-direction: row;
@@ -203,6 +207,10 @@ aside {
     align-items: flex-end;
 }
 
+.tb1 {
+    font-size: 50px;
+}
+
 
 /*********************************/
 
@@ -262,7 +270,7 @@ aside {
     padding: 1px;
     font-size: 15px;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
 }
