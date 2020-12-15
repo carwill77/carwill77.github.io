@@ -115,7 +115,7 @@ aside {
 .banner-sticky {
     display: flex;
     flex-direction: column;
-    height: 37%;
+    height: 27.7%;
     position: sticky;
     top: 0;
 }
@@ -232,22 +232,6 @@ aside {
     transform-style: preserve-3d;
     transition: 2s;
 }
-
-
-/*.arti {
-    height: 250px;
-    width: 250px;
-    margin: auto;
-    -webkit-perspective: 700;
-}
-
-.carta {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: 2s;
-}*/
 
 .carta:hover {
     transform: rotateY(180deg);
