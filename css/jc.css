@@ -1,6 +1,16 @@
 /*--------HEADER---------------------------*/
 
-header {}
+header {
+    /*
+.logo-header{
+    height: 170px;
+    border: 1px solid black;
+   
+    background: #dbb042;
+    display: flex;
+    justify-content: center;
+}*/
+}
 
 header .header-resumen img {
     max-width: 100%;
@@ -45,8 +55,11 @@ nav {
 }
 
 .menu_link {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .link_item {
@@ -57,9 +70,9 @@ nav {
 .link {
     text-decoration: none;
     color: #000;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.1rem;
-    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    padding: 1px;
     position: relative;
     align-items: flex-start;
 }
@@ -94,6 +107,9 @@ nav {
 }
 
 
+/***********************************INDIVIDUAL*********************************************/
+
+
 /*-------------footer---------------------------------------------------------------------*/
 
 .container {
@@ -102,7 +118,7 @@ nav {
     padding: 1px;
     font-size: 15px;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
 }
@@ -146,4 +162,10 @@ nav {
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
+}
+
+.h3 {
+    text-align: center;
+    font-size: 15px;
+    font-style: bold;
 }
