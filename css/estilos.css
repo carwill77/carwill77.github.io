@@ -155,7 +155,7 @@ aside {
     align-items: center;
     padding: 1px;
     border: 1px solid rgb(245, 81, 6);
-    background-image: url("/img/f2.jpeg");
+    background-image: url("/img/f1.jpg");
 }
 
 .sub-articulos .art1 .img1 {
@@ -178,7 +178,7 @@ aside {
     align-items: center;
     padding: 1px;
     border: 1px solid rgb(245, 81, 6);
-    background-image: url("/img/f2.jpeg");
+    background-image: url("/img/f1.jpg");
 }
 
 .sub-articulos .art2 .img2 {
@@ -323,7 +323,4 @@ aside {
     text-align: center;
     font-size: 15px;
     font-style: bold;
-
 }
-
-
