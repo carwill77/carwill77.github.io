@@ -106,13 +106,23 @@ nav {
     width: 100%;
 }
 
-
 /*---------BANNER PUBLICITARIO--------------*/
 
 aside {
-    height: 150px;
-    border: 1px solid black;
+    height: 63px;
     margin: 5px 0px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gif-1 {
+    width: 33%;
+}
+
+.gif {
+    margin: 0px 0px 2px 2px;
 }
 
 .banner-sticky {
@@ -122,11 +132,6 @@ aside {
     position: sticky;
     top: 0;
 }
-
-.gif {
-    margin: 0px 0px 7px 2px;
-}
-
 
 /*----------------------------------------------------------------------------------*/
 
@@ -145,7 +150,6 @@ aside {
     flex-direction: row;
     justify-content: space-around;
 }
-
 
 /*Contenedor de Articulo 1*/
 
@@ -167,7 +171,6 @@ aside {
     margin: 10px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
 }
-
 
 /*Contenedor de Articulo 2*/
 
@@ -213,7 +216,6 @@ aside {
 .tb1 {
     font-size: 50px;
 }
-
 
 /*********************************/
 
@@ -263,7 +265,6 @@ aside {
     background: rgb(179, 204, 179);
     transform: rotateY(180deg);
 }
-
 
 /*-------------footer---------------------------------------------------------------------*/
 
