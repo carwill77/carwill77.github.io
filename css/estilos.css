@@ -129,7 +129,7 @@ aside {
 .banner-sticky {
     display: flex;
     flex-direction: column;
-    height: 19.0%;
+    height: 21.6%;
     position: sticky;
     top: 0;
 }
