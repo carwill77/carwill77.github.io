@@ -49,7 +49,7 @@ header .Main__Footer-xz49ti-2 {
 /*---------BARRA DE NAVEGACION--------------*/
 
 nav {
-    background-color: rgb(10, 165, 131);
+    background-color: rgba(151, 8, 8, 0.911);
     height: 50px;
     border: 1px solid red;
 }
