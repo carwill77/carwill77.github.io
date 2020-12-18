@@ -1,16 +1,8 @@
-/*--------HEADER---------------------------*/
-
-header {
-    /*
-.logo-header{
-    height: 170px;
-    border: 1px solid black;
-   
-    background: #dbb042;
-    display: flex;
-    justify-content: center;
-}*/
+body {
+    margin: 0px;
 }
+
+/*--------HEADER---------------------------*/
 
 header .header-resumen img {
     max-width: 100%;
@@ -49,17 +41,16 @@ header .Main__Footer-xz49ti-2 {
 /*---------BARRA DE NAVEGACION--------------*/
 
 nav {
-    background-color: rgb(10, 165, 131);
+    background-color: rgba(151, 8, 8, 0.911);
     height: 50px;
-    border: 1px solid red;
 }
 
 .menu_link {
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
+    padding-top: 7px;
     text-align: center;
-    margin-top: 0px;
 }
 
 .link_item {
@@ -71,7 +62,7 @@ nav {
     text-decoration: none;
     color: #000;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     padding: 1px;
     position: relative;
     align-items: flex-start;
@@ -106,8 +97,44 @@ nav {
     width: 100%;
 }
 
+/*-----------------------NOTICIA EXTENDIDA-------------------------*/
 
-/*-------------footer---------------------------------------------------------------------*/
+.nota {
+    margin: 2px 0px;
+    background-color: rgba(0, 0, 0, 0.857);
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.nota-img img {
+    height: auto;
+}
+
+.nota-h1 {
+    color: rgb(207, 250, 17);
+    font-size: 36px;
+    padding: 0px 10px;
+}
+
+.nota-h1 h1 {
+    margin-top: 0px;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nota-p {
+    color: white;
+    font-family: 'Oswald';
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    height: 37rem;
+    overflow: auto;
+}
+
+/*-------------FOOTER---------------------------------------------------------------------*/
 
 .container {
     border: 1px solid rgb(59, 14, 14);
