@@ -107,9 +107,6 @@ nav {
 }
 
 
-/***********************************INDIVIDUAL*********************************************/
-
-
 /*-------------footer---------------------------------------------------------------------*/
 
 .container {
@@ -140,6 +137,12 @@ nav {
     justify-content: center;
 }
 
+.texto1 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10%;
+}
+
 .escritores {
     width: 20%;
     height: 400px;
@@ -164,8 +167,8 @@ nav {
     align-items: center;
 }
 
-.h3 {
-    text-align: center;
-    font-size: 15px;
-    font-style: bold;
+.imagen2 {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
 }
