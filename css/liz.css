@@ -136,7 +136,7 @@ section.generallll {
 }
 .principal{
    
-   height: calc(100vh - 70px);
+ /*  height: calc(100vh - 70px);*/
   
    align-items: center;
    justify-content: space-between;
